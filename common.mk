@@ -185,7 +185,7 @@ PRODUCT_COPY_FILES += \
 # FUSE
 PRODUCT_SYSTEM_PROPERTIES += \
     persist.sys.fuse.passthrough.enable=true
-    
+
 # Gatekeeper
 PRODUCT_PACKAGES += \
     android.hardware.gatekeeper@1.0.vendor
@@ -263,6 +263,10 @@ PRODUCT_COPY_FILES += \
 # Libshims
 PRODUCT_PACKAGES += \
     fakelogprint
+
+# Keyhandler
+PRODUCT_PACKAGES += \
+    KeyHandler
 
 # Keymaster
 PRODUCT_PACKAGES += \
