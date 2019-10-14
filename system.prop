@@ -137,6 +137,11 @@ persist.sys.fflag.override.settings_provider_model=false
 # SSR
 persist.vendor.ssr.restart_level=ALL_ENABLE
 
+# ZRAM writeback
+ro.zram.mark_idle_delay_mins=60
+ro.zram.first_wb_delay_mins=180
+ro.zram.periodic_wb_delay_hours=24
+
 #thermal configs path
 sys.thermal.data.path=/data/vendor/thermal/
 
