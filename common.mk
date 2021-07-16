@@ -330,6 +330,10 @@ PRODUCT_USE_DYNAMIC_PARTITIONS := true
 PRODUCT_PACKAGES += \
     android.hardware.power@1.3-service.xiaomi_sm6250
 
+# Remove unwanted packages
+PRODUCT_PACKAGES += \
+    RemovePkgs
+
 # RCS
 PRODUCT_PACKAGES += \
     com.android.ims.rcsmanager \
