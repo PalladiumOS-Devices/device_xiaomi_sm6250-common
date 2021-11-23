@@ -25,6 +25,10 @@ vendor.display.disable_rotator_downscale=1
 # Disable remote keyguard animation
 persist.wm.enable_remote_keyguard_animation=0
 
+# Dexopt
+pm.dexopt.first-boot=quicken
+pm.dexopt.bg-dexopt=everything
+
 # LMKD
 ro.config.low_ram=false
 ro.lmk.log_stats=true
