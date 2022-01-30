@@ -147,6 +147,8 @@ vendor.display.enable_default_color_mode=1
 vendor.display.enable_null_display=0
 vendor.display.enable_optimize_refresh=1
 vendor.gralloc.disable_ubwc=0
+debug.hwui.use_hint_manager=true
+debug.hwui.target_cpu_time_percent=30
 
 # FM
 vendor.hw.fm.init=0
