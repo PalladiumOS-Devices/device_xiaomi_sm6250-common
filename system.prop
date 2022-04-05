@@ -46,6 +46,9 @@ vendor.camera.aux.packagelist=org.codeaurora.snapcam,org.lineageos.snap,com.andr
 # CNE
 persist.vendor.cne.feature=1
 
+# Disable remote keyguard animation
+persist.wm.enable_remote_keyguard_animation=0
+
 # Dalvik
 dalvik.vm.dexopt.secondary=true
 
