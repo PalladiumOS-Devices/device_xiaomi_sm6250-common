@@ -25,8 +25,8 @@
     <!-- Battery Health enable -->
     <bool name="config_supportBatteryHealth">true</bool>
 
-    <!-- Smart Charging enable -->
-    <bool name="config_supportSmartCharging">true</bool>
+    <!-- Smart Charging enable 
+    <bool name="config_supportOptimizedCharging">true</bool>-->
 
     <!-- Device specific doze package -->
     <string name="config_customDozePackage">com.xiaomi.doze/com.xiaomi.doze.DozeSettingsActivity</string>
