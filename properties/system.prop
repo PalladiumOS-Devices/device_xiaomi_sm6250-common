@@ -200,3 +200,6 @@ persist.debug.wfd.enable=1
 persist.sys.wfd.virtual=0
 
 debug.force_no_blanking=true
+
+#Netflix
+persist.pixelpropsutils.spoof_netflix=true
