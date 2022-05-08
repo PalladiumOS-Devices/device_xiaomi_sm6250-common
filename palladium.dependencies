@@ -8,6 +8,10 @@
     "target_path": "hardware/xiaomi"
   },
   {
+    "repository": "android_packages_apps_GCamGOPrebuilt",
+    "target_path": "packages/apps/GCamGOPrebuilt"
+  },
+  {
     "remote": "gitlab",
     "repository": "arrowos-project/android_prebuilts_clang_host_linux-x86_clang-r437112b",
     "target_path": "prebuilts/clang/host/linux-x86/clang-r437112b",
