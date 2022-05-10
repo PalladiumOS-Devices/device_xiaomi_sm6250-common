@@ -48,7 +48,7 @@ persist.camera.managebuffer.enable=1
 persist.vendor.cne.feature=1
 
 # Dalvik
-dalvik.vm.dexopt.secondary=true
+dalvik.vm.dex2oat64.enabled=true
 
 # Display
 debug.sf.disable_backpressure=1
