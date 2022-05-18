@@ -573,10 +573,10 @@
         <item>40</item>
     </integer-array>
 
-    <!-- Smart charging -->
-    <string name="config_SmartChargingSysfsNode" translatable="false">/sys/class/power_supply/battery/input_suspend</string>
-    <string name="config_SmartChargingSuspendValue" translatable="false">1</string>
-    <string name="config_SmartChargingResumeValue" translatable="false">0</string>
+    <!-- Optimized charging -->
+    <string name="config_OptimizedChargingSysfsNode" translatable="false">/sys/class/power_supply/battery/input_suspend</string>
+    <string name="config_OptimizedChargingSuspendValue" translatable="false">1</string>
+    <string name="config_OptimizedChargingResumeValue" translatable="false">0</string>
 
     <!-- Enables or disables haptic effect when the text insertion/selection handle is moved
           manually by the user. Off by default, since the expected haptic feedback may not be
